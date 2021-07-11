@@ -23,3 +23,5 @@
 6. 確認帳戶下方有顯示「系統管理員」
 
 ![](https://i.imgur.com/4a0RfBU.jpg)
+
+[回到目錄](https://github.com/Roderick-github/cloud-classroom)
