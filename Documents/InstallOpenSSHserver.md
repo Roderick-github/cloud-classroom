@@ -26,4 +26,6 @@
 
 ![](https://i.imgur.com/U5pvs7z.jpg)
 
-6. 完成後會以系統服務的方式執行 sshd。而設定檔 sshd_config 與 host keys 在 sshd 服務第一次啟動時，會安裝至 %ProgramData%\ssh 
+6. 完成後會以系統服務的方式執行 sshd。而設定檔 sshd_config 與 host keys 在 sshd 服務第一次啟動時，會安裝至 %ProgramData%\ssh
+
+[回到目錄](https://github.com/Roderick-github/cloud-classroom)
