@@ -78,3 +78,5 @@
 ## 儲存 Microsoft Management Console (MMC) 設置
 
 ![](https://i.imgur.com/VxJOjiG.png)
+
+[回到目錄](https://github.com/Roderick-github/cloud-classroom)
