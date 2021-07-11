@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ds101
+  labels:
+    dt: hdp
+spec:
+  hostname: ds101
+  subdomain: hdp 
+  containers:
+  - name: ds101
+    image: 120.96.143.74:8088/quay/dt210:latest
+    imagePullPolicy: IfNotPresent
+    ports:
+     - containerPort: 22
+       hostPort: 22101
+    stdin: true
+    tty: true
+    command: [/bin/bash] 
+    args: ["-c","useradd -m -s /bin/bash rbean;echo 'rbean:rbean' | chpasswd;useradd -m -s /bin/bash gbean;echo 'gbean:gbean' | chpasswd;/bin/bash"]
+    volumeMounts:
+     - mountPath: "/home/rbean"
+       name: rbean
+     - mountPath: "/home/gbean"
+       name: gbean
+     - mountPath: "/opt/dataset"
+       name: dataset
+  volumes:
+    - name: rbean
+      hostPath:
+        path: /opt/ds101/rbean
+    - name: gbean
+      hostPath:
+        path: /opt/ds101/gbean
+    - name: dataset
+      hostPath:
+        path: /opt/dataset
+  dnsConfig:
+    searches:
+    - hdp.default.svc.dt.io
+  nodeSelector:
+    kubernetes.io/hostname : 120-96-143-80-k3m80
+  restartPolicy: Never

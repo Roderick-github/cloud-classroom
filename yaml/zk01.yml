@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: zk01
+  labels:
+    dt: hdp
+spec:
+  hostname: zk01
+  subdomain: hdp 
+  containers:
+  - name: zk01
+    image: 120.96.143.74:8088/quay/dt210:latest
+    imagePullPolicy: IfNotPresent
+    stdin: true
+    tty: true
+    command: [/bin/bash]
+    volumeMounts:
+    - mountPath: "/opt/apache-zookeeper-3.6.2-bin/conf/"
+      name: dtconf
+      subPath: zkconf
+    - mountPath: "/home/bigred/zk/"
+      name: opt
+      subPath: zk01
+    - name: dtconf
+      mountPath: /opt/hadoop-2.10.1/etc/hadoop/
+      subPath: hdp210
+  volumes:
+    - name: dtconf
+      hostPath:
+        path: /home/bigred/dt/conf
+    - name: opt
+      hostPath:
+        path: /opt
+  dnsConfig:
+    searches:
+    - hdp.default.svc.dt.io
+  nodeSelector:
+    kubernetes.io/hostname : 120-96-143-82-k3m82
+  restartPolicy: Never

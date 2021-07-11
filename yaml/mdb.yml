@@ -1,0 +1,33 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mdb
+  labels:
+    dt: hdp
+spec:
+  hostname: mdb
+  subdomain: hdp 
+  containers:
+  - name: mdb
+    image: 120.96.143.74:8088/quay/mariadb:10.6.2
+    ports:
+     - containerPort: 3306
+    env:
+     # Use secret in real usage
+     - name: MYSQL_ROOT_PASSWORD
+       value: password
+    # imagePullPolicy: Never
+    volumeMounts:
+     - mountPath: "/var/lib/mysql"
+       name: mdbpath
+  # command: [/bin/bash]
+  volumes:
+    - name: mdbpath
+      hostPath:
+        path: /opt/mariadb
+  dnsConfig:
+    searches:
+    - hdp.default.svc.dt.io
+  nodeSelector:
+    kubernetes.io/hostname : 120-96-143-82-k3m82
+  restartPolicy: Never
