@@ -69,3 +69,5 @@
 * 成功啟用 VMware Workstation 16 Player
 
 ![](https://i.imgur.com/XueRzSD.png)
+
+[回到目錄](https://github.com/Roderick-github/cloud-classroom)
