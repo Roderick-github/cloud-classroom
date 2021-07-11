@@ -65,3 +65,5 @@
 8. 回到系統選單後，按 Ctrl + Alt + Delete 讓系統重新開機，載入新設定
 
 ![](https://i.imgur.com/MwmMfP4.png)
+
+[回到目錄](https://github.com/Roderick-github/cloud-classroom)
