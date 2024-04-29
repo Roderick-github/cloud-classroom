@@ -10,9 +10,9 @@
 # VMware Workstation 17 Player 安裝
 ## 下載安裝程式
 
-* 進入 VMware 台灣官網，點選 Windows 適用下的立即下載，即開始下載 VMware Workstation 17 Player 安裝程式
+* 進入 VMware 官網，點選 Try Workstation 17 Player for Windows 下的 DOWNLOAD NOW，即開始下載 VMware Workstation 17 Player 安裝程式
 
-![](https://imgur.com/a/fMmreJu)
+[Imgur](https://i.imgur.com/dcG5UHa.png)
 
 ---
 
@@ -20,35 +20,35 @@
 
 * 執行 VMware installation launcher
 
-![](https://imgur.com/a/YeYTmjr)
+[Imgur](https://i.imgur.com/ksE7UYR.png)
 
 * 點按 Next
 
-![](https://imgur.com/a/Waqij4e)
+[Imgur](https://i.imgur.com/kcyHPYO.png)
 
 * 點按 Next，同意使用者授權合約
 
-![](https://imgur.com/a/NeCHRkY)
+[Imgur](https://i.imgur.com/KRkQjg6.png)
 
 * 若不更改程式預設安裝路徑，點按 Next
 
-![](https://imgur.com/a/sDpoSCm)
+[Imgur](https://i.imgur.com/rdK2JAS.png)
 
 * 點按 Next
 
-![](https://imgur.com/a/95cds01)
+[Imgur](https://i.imgur.com/y7Qz6K1.png)
 
 * 點按 Next，於桌面和開始功能表建立捷徑
 
-![](https://imgur.com/a/pMEtYlM)
+[Imgur](https://i.imgur.com/0sW0QKe.png)
 
 * 點按 Install，開始安裝
 
-![](https://imgur.com/a/ORJ1hTO)
+[Imgur](https://i.imgur.com/siYx4nt.png)
 
 * 點按 Finish，完成安裝
 
-![](https://imgur.com/a/hM45cuU)
+[Imgur](https://i.imgur.com/Xv9bodf.png)
 
 ---
 
@@ -56,14 +56,14 @@
 
 * 教育用途無須購買金鑰，點按 Continue
 
-![](https://imgur.com/a/R2S0McH)
+[Imgur](https://i.imgur.com/sOXhSme.png)
 
 * 點按 Finish
 
-![](https://imgur.com/a/60HoD4g)
+[Imgur](https://i.imgur.com/M143fOI.png)
 
 * 成功啟用 VMware Workstation 17 Player
 
-![](https://imgur.com/a/WCjdRJi)
+[Imgur](https://i.imgur.com/4jUYV3z.png)
 
 [回到首頁](https://github.com/Roderick-github/)
