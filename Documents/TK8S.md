@@ -40,7 +40,8 @@
     - Apache NiFi：提供視覺化的資料管道設計和管理工具。
 - 資料整合和轉換：
     - Apache Kafka Connect：用於將資料從各種來源（如資料庫、訊息代理等）集成到目標系統中。
-    - Apache Beam：提供統一的資料處理模型，支持批次處理和串流處理。- - - Metadata管理：
+    - Apache Beam：提供統一的資料處理模型，支持批次處理和串流處理。
+- Metadata管理：
     - Apache Atlas：用於建立和維護資料目錄和 Metadata，幫助資料工程師理解和管理資料資產。
     - DataHub：LinkedIn 開源的資料目錄平台，用於發現、搜尋和分享資料資產。
 - 資料品質和一致性：
