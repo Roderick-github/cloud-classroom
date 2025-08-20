@@ -21,8 +21,8 @@
   * 執行安裝程式
   * 第一次啟動 VMware Workstation 16 Player
 
-* [銘傳遠距落地雲批次檔建置與使用（PowerPoint）](https://docs.google.com/presentation/d/1WmPUxOPl-C0ZOeh2N3kB2uRav0qJDKcZ/)
+* [銘傳遠距落地雲批次檔建置與使用（PowerPoint）](https://docs.google.com/presentation/d/1yV7PndQWtCSMJom88C4OWoJFb2UegOB1/)
 
-* [課程：建置高可用性 K3S 叢集（PowerPoint）](https://docs.google.com/presentation/d/1vHOxfBvN0rzKAO3zwfmcsDCQfnqyvsss/)
+* [課程：建置高可用性 K3S 叢集（PowerPoint）](https://docs.google.com/presentation/d/155vgJX7zmjClalACZDPtxvJaIoRaQ9yl/)
 
 * [課程：於高可用性 K3S 叢集，快速建置 Hadoop 系統](https://github.com/Roderick-github/cloud-classroom/blob/main/Documents/K3SHadoop.md)
